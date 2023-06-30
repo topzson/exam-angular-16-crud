@@ -38,6 +38,3 @@ db.mongoose
   });
 
   require("./app/routes/tutorial.routes")(app);
-
-  const POST = '8081';
-  app.listen(PORT, () => {})
