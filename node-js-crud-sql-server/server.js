@@ -36,3 +36,8 @@ db.mongoose
     console.log("Cannot connect to the database!", err);
     process.exit();
   });
+
+  require("./app/routes/tutorial.routes")(app);
+
+  const POST = '8081';
+  app.listen(PORT, () => {})
